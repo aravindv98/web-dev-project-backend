@@ -12,7 +12,7 @@ mongoose.connect(CONNECTION_STRING);
 const app = express();
 app.use(
   cors({
-    origin: "https://main--bespoke-mermaid-b099c3.netlify.app/",
+    origin: "https://main--bespoke-mermaid-b099c3.netlify.app",
     credentials: true,
     preflightContinue: false,
   })
